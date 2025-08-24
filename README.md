@@ -175,38 +175,7 @@ AeroPass supports importing data from JSON files. Use the following format to im
 
 ### Legacy Format Support
 
-AeroPass also supports importing from legacy password managers with the following simplified format:
 
-```json
-{
-  "version": "1.0",
-  "exportDate": "2023-12-01T10:30:00Z",
-  "credentials": [
-    {
-      "id": 1,
-      "websiteName": "Legacy Login Test",
-      "encryptedPassword": "encrypted_legacy_password_data",
-      "category": "Work",
-      "tags": "legacy,test",
-      "dateCreated": 1701425400000,
-      "lastUpdated": 1701425400000,
-      "isFavorite": false
-    },
-    {
-      "id": 2,
-      "websiteName": "Another Legacy Site",
-      "encryptedPassword": "another_encrypted_legacy_password",
-      "category": "Personal",
-      "tags": "old,format",
-      "dateCreated": 1701425400000,
-      "lastUpdated": 1701425400000,
-      "isFavorite": true
-    }
-  ]
-}
-```
-
-#### Legacy Format Fields
 - **websiteName**: Name of the website or service (converted to title)
 - **encryptedPassword**: The encrypted password data (converted to LOGIN credential)
 
