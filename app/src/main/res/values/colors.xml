@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary brand color -->
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryVariant">#BFDAA0</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    
+    <!-- Secondary brand color -->
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+    
+    <!-- Error color -->
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+    
+    <!-- Surface colors -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+    
+    <!-- Background colors -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorSelectedItemBackground">#E0E0E0</color>
+    
+    <!-- Text Field colors -->
+    <color name="text_field_background">#F5F5F5</color>
+    <color name="text_field_stroke_color">#E0E0E0</color>
+    <color name="text_field_stroke_focused">#6200EE</color>
+    
+    <!-- Category colors -->
+    <color name="category_general">#9E9E9E</color>
+    <color name="category_social">#2196F3</color>
+    <color name="category_banking">#4CAF50</color>
+    <color name="category_shopping">#FF9800</color>
+    <color name="category_work">#795548</color>
+    <color name="category_entertainment">#E91E63</color>
+    <color name="category_travel">#00BCD4</color>
+    <color name="category_education">#3F51B5</color>
+    <color name="category_health">#F44336</color>
+    <color name="category_technology">#607D8B</color>
+    <color name="category_government">#9C27B0</color>
+    <color name="category_utilities">#CDDC39</color>
+    <color name="category_other">#757575</color>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "exportDate": "2024-01-20T10:30:00Z",
+  "exportType": "PLAIN_JSON",
+  "credentials": [
+    {
+      "id": 1,
+      "title": "Test Regular JSON Login",
+      "credentialType": "LOGIN",
+      "decryptedData": {
+        "username": "testuser@example.com",
+        "password": "testpassword123",
+        "url": "https://example.com",
+        "notes": "Test login credential from regular JSON"
+      },
+      "category": "Work",
+      "tags": "test,regular,json",
+      "dateCreated": 1705742200000,
+      "lastUpdated": 1705742200000,
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "title": "Test Regular JSON Payment",
+      "credentialType": "PAYMENT",
+      "decryptedData": {
+        "cardNumber": "4111-1111-1111-1111",
+        "cardholderName": "John Doe",
+        "expirationDate": "12/26",
+        "cvv": "123",
+        "cardType": "Visa"
+      },
+      "category": "Personal",
+      "tags": "test,payment,card",
+      "dateCreated": 1705742200000,
+      "lastUpdated": 1705742200000,
+      "isFavorite": true
+    }
+  ]
+}

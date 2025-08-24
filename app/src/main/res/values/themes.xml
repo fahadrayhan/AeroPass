@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AeroPass" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AeroPass" parent="Base.Theme.AeroPass" />
+    
+    <!-- Splash screen theme -->
+    <style name="Theme.AeroPass.Splash" parent="Theme.AeroPass">
+        <item name="android:windowBackground">#FAFAFA</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    
+    <!-- Transparent theme for activities -->
+    <style name="Theme.AeroPass.Transparent" parent="Theme.AeroPass">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+</resources>

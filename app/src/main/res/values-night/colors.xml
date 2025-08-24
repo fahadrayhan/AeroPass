@@ -1,0 +1,8 @@
+<resources>
+    <color name="colorSelectedItemBackground">#444444</color>
+    
+    <!-- Text Field colors for dark theme -->
+    <color name="text_field_background">#2A2A2A</color>
+    <color name="text_field_stroke_color">#555555</color>
+    <color name="text_field_stroke_focused">#BB86FC</color>
+</resources>
