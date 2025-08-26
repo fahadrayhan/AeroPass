@@ -60,83 +60,6 @@ Once you have the project open in Android Studio, you can build and run the app 
 
 AeroPass supports importing data from JSON files. Use the following format to import your existing credentials:
 
-### Standard Import Format
-
-```json
-{
-  "version": "1.0",
-  "exportDate": "2024-01-15T10:30:00Z",
-  "credentials": [
-    {
-      "id": 1,
-      "title": "Your Credential Title",
-      "credentialType": "LOGIN",
-      "encryptedData": "{\"username\":\"your_username\",\"email\":\"your_email\",\"password\":\"your_password\",\"url\":\"https://example.com\",\"recoveryInfo\":\"recovery_info\",\"notes\":\"additional_notes\"}",
-      "category": "Personal",
-      "tags": "tag1,tag2,tag3",
-      "dateCreated": 1705312200000,
-      "lastUpdated": 1705312200000,
-      "isFavorite": false
-    }
-  ]
-}
-```
-
-### Supported Credential Types
-
-#### Complete Import File Example
-```json
-{
-  "version": "1.0",
-  "exportDate": "2024-01-15T10:30:00Z",
-  "credentials": [
-    {
-      "id": 1,
-      "title": "Example Login",
-      "credentialType": "LOGIN",
-      "encryptedData": "{\"username\":\"testuser\",\"password\":\"testpass\",\"url\":\"https://example.com\"}",
-      "category": "Work",
-      "tags": "test,sample",
-      "dateCreated": 1705312200000,
-      "lastUpdated": 1705312200000,
-      "isFavorite": false
-    },
-    {
-      "id": 2,
-      "title": "Example Payment",
-      "credentialType": "PAYMENT",
-      "encryptedData": "{\"cardNumber\":\"1234-5678-9012-3456\",\"cardholderName\":\"John Doe\",\"expirationDate\":\"12/25\"}",
-      "category": "Personal",
-      "tags": "credit,card",
-      "dateCreated": 1705312200000,
-      "lastUpdated": 1705312200000,
-      "isFavorite": true
-    },
-    {
-      "id": 3,
-      "title": "Example Identity",
-      "credentialType": "IDENTITY",
-      "encryptedData": "{\"fullName\":\"John Doe\",\"nationalId\":\"123456789\",\"dateOfBirth\":\"1990-01-01\"}",
-      "category": "Personal",
-      "tags": "id,document",
-      "dateCreated": 1705312200000,
-      "lastUpdated": 1705312200000,
-      "isFavorite": false
-    },
-    {
-      "id": 4,
-      "title": "Example Secure Note",
-      "credentialType": "SECURE_NOTES",
-      "encryptedData": "{\"noteContent\":\"This is a secure note\",\"secretKey\":\"ABCD1234EFGH5678\"}",
-      "category": "General",
-      "tags": "note,2fa",
-      "dateCreated": 1705312200000,
-      "lastUpdated": 1705312200000,
-      "isFavorite": false
-    }
-  ]
-}
-```
 
 ### Field Descriptions
 
@@ -148,9 +71,7 @@ AeroPass supports importing data from JSON files. Use the following format to im
 - **credentialType**: One of: LOGIN, PAYMENT, IDENTITY, SECURE_NOTES
 - **encryptedData**: JSON string containing the actual credential data (unencrypted - app will encrypt during import)
 - **category**: Category name (Personal, Work, Family, etc.)
-- **tags**: Comma-separated tags for organization
 - **dateCreated/lastUpdated**: Unix timestamps in milliseconds
-- **isFavorite**: Boolean for favorite status
 
 ### Supported encryptedData Fields by Type
 
@@ -190,4 +111,4 @@ Legacy credentials will be automatically converted to the new LOGIN credential f
 
 ## Author
 
-*   **Fahad Rayhan** - [https://github.com/fahad-rayhan](https://github.com/fahad-rayhan)
+*   **Fahad Rayhan** - [https://github.com/fahadrayhan](https://github.com/fahadrayhan)
