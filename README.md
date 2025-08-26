@@ -40,7 +40,7 @@ AeroPass is a comprehensive secure password manager for Android that helps you s
 To get started with AeroPass, you'll need to have Android Studio installed on your computer. Once you have Android Studio installed, you can clone the project from GitHub and open it in Android Studio.
 
 ```bash
-git clone https://github.com/your-username/aeropass.git
+git clone https://github.com/fahadrayhan/aeropass.git
 ```
 
 Once you have the project open in Android Studio, you can build and run the app on your Android device or emulator.
