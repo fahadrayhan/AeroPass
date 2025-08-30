@@ -19,12 +19,10 @@ AeroPass is a comprehensive secure password manager for Android that helps you s
     - **Secure Notes:** Encrypted notes with secret keys, QR codes, and sensitive information
 *   **Smart Sharing:** Share credentials securely with type-specific formatting for all credential types
 *   **Category Organization:** Organize credentials into categories (Personal, Work, Family, etc.)
-*   **Favorites:** Mark frequently used credentials as favorites for quick access
 *   **Search & Filter:** Quickly find credentials with search and category filtering
 
 ### User Experience
 *   **Streamlined Forms:** Simplified credential entry forms with essential fields only
-*   **Password Generator:** Generate strong, unique passwords for all of your accounts
 *   **Secure Clipboard:** Copy sensitive information with automatic clipboard clearing
 *   **Import/Export:** Import and export your data from JSON files with support for multiple formats
 *   **Material Design:** Modern, intuitive interface following Material Design guidelines
